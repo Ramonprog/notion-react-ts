@@ -13,7 +13,7 @@ export const initialContent = `
         <div >
           <h3 >Botão Estilizado</h3>
           <pre>
-            <code>&lt;button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"&gt;
+            <code class="language-html">&lt;button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"&gt;
               Clique Aqui
               &lt;/button&gt;</code></pre>
         </div>
@@ -26,7 +26,7 @@ export const initialContent = `
 
         <div >
           <h3 >Layout Responsivo</h3>
-          <pre><code>&lt;div class="md:flex"&gt;
+          <pre><code class="language-html">&lt;div class="md:flex"&gt;
             &lt;div class="md:w-1/2"&gt;
             &lt;p class="mb-4"&gt;Este é um layout responsivo usando as classes 'md:flex' e 'md:w-1/2'.&lt;/p&gt;
             &lt;/div&gt;
